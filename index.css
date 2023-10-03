@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'CursedTimerUlil';
+    src: url(CursedTimerUlil-Aznm.woff);
+}
+
+body {
+    margin: 0;
+    background-image: url(grass2-min.jpg);
+    background-size: cover;
+    
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px black;
+}
+
+button {
+    font-family: 'CursedTimerUlil';
+    font-size: 18px;
+    background-color: #065F46;
+    color: #A7F3D0;
+    border: 1.5px solid #A7F3D0;
+    margin-top: 15px;
+    padding: 10px 9px;
+    border-radius: 5px;
+}
+
+.overall-container {
+    width: 575px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #065F46;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap:wrap;
+    gap: 5px;
+    position: relative;
+    margin: 0px;
+}
+
+/* home and guest scoreboard */
+.scoreboard {
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    flex-basis: 25%;
+    position: sticky;
+}
+
+.home-section {
+    margin: 0 50px;
+}
+
+.guest-section {
+    margin: 0 50px;
+}
+
+/*score for home and guest*/
+.score {
+    font-family: 'CursedTimerUlil';
+    font-size: 80px;
+    color: #F94F6D;
+
+}
+
+.button-section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+#new-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    
+}
+
+#new-game-button {
+    background-color: #D1FAE5;
+    color: 065F46;
+    font-weight: bold;
+}
+
+button:hover {background-color: #064E3B}
+
+button:active {
+  background-color: #064E3B;
+  box-shadow: 0 2px black;
+  transform: translateY(1px);
+}
+#new-game-button:hover {
+    background-color:#A7F3D0;
+}
+
+#new-game-button:active {
+    background-color: #A7F3D0;
+    box-shadow: 0 2px black;
+  transform: translateY(1px);
+}
