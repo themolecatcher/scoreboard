@@ -30,24 +30,25 @@ button {
 }
 
 .overall-container {
-    width: 575px;
-    height: 385px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    background-color: #065F46;
+    flex-wrap: wrap;
+    margin: auto;    
 }
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     gap: 5px;
-    position: relative;
-    margin: 0px;
+    /*position: relative;*/
+    margin: 50px 0 0 0;
+    background-color: #065F46;
+    padding-bottom: 30px;
+    border-radius: 10px;
 }
 
 /* home and guest scoreboard */
@@ -62,9 +63,8 @@ button {
     border-radius: 10px;
     padding-top: 15px;
     box-sizing: border-box;
-    flex-grow: 1;
     flex-basis: 25%;
-    position: sticky;
+    /*position: sticky;*/
 }
 
 .home-section {
@@ -93,7 +93,9 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px;
+    margin-top: 30px;
+    padding: 1% 0 2% 0;
+    background-color: #065F46;
     
 }
 
